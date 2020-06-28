@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/simulation/modelsim
+vCYX_SC_CPU_nanoMIPS
+Z1 !s110 1588929234
+!i10b 1
+!s100 F8dT:dFPN2@Z1^mmcb;DJ0
+I0zc41Ndz_oGS_RV?D?`I^3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1588929192
+Z4 8CYX_SC_CPU_nanoMIPS_6_1200mv_85c_slow.vo
+Z5 FCYX_SC_CPU_nanoMIPS_6_1200mv_85c_slow.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1588929234.000000
+Z8 !s107 CYX_SC_CPU_nanoMIPS_6_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|CYX_SC_CPU_nanoMIPS_6_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+n@c@y@x_@s@c_@c@p@u_nano@m@i@p@s
+vCYX_SC_CPU_nanoMIPS_tb
+!s110 1588929235
+!i10b 1
+!s100 2KAlW?h_9`g`^eR9ja4Sz3
+IZC2=NJ:_I2;6524FGAgQ10
+R2
+R0
+w1588585430
+8C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v
+FC:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v
+L0 23
+R6
+r1
+!s85 0
+31
+!s108 1588929235.000000
+!s107 C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM|C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM}
+R12
+n@c@y@x_@s@c_@c@p@u_nano@m@i@p@s_tb
+vhard_block
+R1
+!i10b 1
+!s100 aJ5T2SkbEL;R:h29_NH<O3
+I^dD9AMl4C2gJN^B@>3gIR1
+R2
+R0
+R3
+R4
+R5
+L0 43360
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

@@ -1,0 +1,41 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 04/26/2020 06:58:59 PM
+// Design Name: 
+// Module Name: CYX_MUX
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module CYX_Extender16
+	(
+	input wire ExtOp,
+	input wire[15:0] DIN,
+	input reg[31:0] DOUT
+	);
+	
+	always @ * begin
+		if (ExtOp == 0) begin
+		
+		end
+	end
+	
+endmodule
+
+
+
+
+	

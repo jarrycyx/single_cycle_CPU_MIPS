@@ -1,0 +1,251 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/simulation/modelsim
+vALU_Core
+Z1 !s110 1588586622
+!i10b 1
+!s100 e:HIZiXm7edi]gcfoVfL82
+IokCT@?:zA4oVk7L5^ERz22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1588584564
+8C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\ALU_Core.v
+FC:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\ALU_Core.v
+L0 25
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1588586622.000000
+!s107 C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\ALU_Core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\ALU_Core.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u_@core
+vCYX_Controller
+Z7 !s110 1588586623
+!i10b 1
+!s100 F_moWXg?m0l1M]U`Ci1T31
+I]?86e:3NRhJc4ebF[7Q?O3
+R2
+R0
+w1588586606
+8C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Controller.v
+FC:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Controller.v
+Z8 L0 23
+R3
+r1
+!s85 0
+31
+Z9 !s108 1588586623.000000
+!s107 C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Controller.v|
+!i113 1
+R5
+R6
+n@c@y@x_@controller
+vCYX_Extender16
+R1
+!i10b 1
+!s100 42N1b0`mfH70EJGWGca3M1
+I8CJ]K8Z5zlA1>edg0EBFf2
+R2
+R0
+w1587884384
+8C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Extender16.v
+FC:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Extender16.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Extender16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Extender16.v|
+!i113 1
+R5
+R6
+n@c@y@x_@extender16
+vCYX_Inst_Fetch
+R1
+!i10b 1
+!s100 KF]FbkT<Dm:eR9d5KV=FJ3
+IHb1bm;16U>=QAKD8ZzLgb3
+R2
+R0
+w1588586256
+8C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Inst_Fetch.v
+FC:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Inst_Fetch.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Inst_Fetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_Inst_Fetch.v|
+!i113 1
+R5
+R6
+n@c@y@x_@inst_@fetch
+vCYX_MUX
+R1
+!i10b 1
+!s100 U]Ef<zk`eQf46aWCPdB]Y1
+IA3QSlX5=]J9Gl^8F0a[;71
+R2
+R0
+w1587874238
+8C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_MUX.v
+FC:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_MUX.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_MUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_MUX.v|
+!i113 1
+R5
+R6
+n@c@y@x_@m@u@x
+vCYX_RegFile
+R1
+!i10b 1
+!s100 QhPOc5TUZTWYL9LAmC^=j3
+ICaW=ICDU^AzDoNoO3bbnS3
+R2
+R0
+w1588080211
+8C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_RegFile.v
+FC:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_RegFile.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_RegFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_RegFile.v|
+!i113 1
+R5
+R6
+n@c@y@x_@reg@file
+vCYX_SC_CPU_nanoMIPS
+Z10 !s110 1588588169
+!i10b 1
+!s100 lV38Em<MBfA<8YNgOMH8<0
+IWC[l8M>58hMljCGbV]:3T2
+R2
+R0
+Z11 w1588587992
+Z12 8C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/simulation/modelsim/CYX_SC_CPU_nanoMIPS.vo
+Z13 FC:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/simulation/modelsim/CYX_SC_CPU_nanoMIPS.vo
+L0 32
+R3
+r1
+!s85 0
+31
+Z14 !s108 1588588169.000000
+Z15 !s107 C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/simulation/modelsim/CYX_SC_CPU_nanoMIPS.vo|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/simulation/modelsim/CYX_SC_CPU_nanoMIPS.vo|
+!i113 1
+R5
+R6
+n@c@y@x_@s@c_@c@p@u_nano@m@i@p@s
+vCYX_SC_CPU_nanoMIPS_tb
+R10
+!i10b 1
+!s100 2KAlW?h_9`g`^eR9ja4Sz3
+I_Ri>YjULdQ6mbBK?dV5C32
+R2
+R0
+w1588585430
+8C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_SC_CPU_nanoMIPS_tb.v
+FC:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_SC_CPU_nanoMIPS_tb.v
+R8
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_SC_CPU_nanoMIPS_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_SC_CPU_nanoMIPS_tb.v|
+!i113 1
+R5
+R6
+n@c@y@x_@s@c_@c@p@u_nano@m@i@p@s_tb
+vCYX_VRAM
+R7
+!i10b 1
+!s100 A0zSbbWcmHj3lB@V65N5_3
+I:YZ<6J6cfNSXOTPeVKgP10
+R2
+R0
+w1587885101
+8C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_VRAM.v
+FC:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_VRAM.v
+R8
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_VRAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_VRAM.v|
+!i113 1
+R5
+R6
+n@c@y@x_@v@r@a@m
+vCYX_VROM
+R1
+!i10b 1
+!s100 kl1<<6YYANZiC5_LGDoi`1
+Iz>o^goEaL2]2V8?b]IWOF2
+R2
+R0
+w1588585992
+8C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_VROM.v
+FC:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_VROM.v
+R8
+R3
+r1
+!s85 0
+31
+!s108 1588586621.000000
+!s107 C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_VROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS\CYX_VROM.v|
+!i113 1
+R5
+R6
+n@c@y@x_@v@r@o@m
+vhard_block
+R10
+!i10b 1
+!s100 4MT3fkV;7:ZG3_Q9?eS191
+Iki<B:`=ZeXa8cTRHf72PF3
+R2
+R0
+R11
+R12
+R13
+L0 75
+R3
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R5
+R6

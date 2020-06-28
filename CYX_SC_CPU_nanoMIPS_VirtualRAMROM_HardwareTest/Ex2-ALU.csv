@@ -1,0 +1,57 @@
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# File: C:\Users\jarrycyx\OneDrive\+ACademia\Computer Principles and Applications\Ex3\CYX_SC_CPU_nanoMIPS_VirtualRAMROM_HardwareTest\Ex2-ALU.csv
+# Generated on: Sun May 10 15:58:18 2020
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+A_inv_HW,Input,PIN_111,7,B7_N0,PIN_111,2.5 V,,,,,
+B_inv_HW,Input,PIN_112,7,B7_N0,PIN_112,2.5 V,,,,,
+C[3],Input,PIN_70,4,B4_N0,PIN_70,2.5 V,,,,,
+C[2],Input,PIN_71,4,B4_N0,PIN_71,2.5 V,,,,,
+C[1],Input,PIN_72,4,B4_N0,PIN_72,2.5 V,,,,,
+C[0],Input,PIN_73,5,B5_N0,PIN_73,2.5 V,,,,,
+CPR_RES_HW,Output,PIN_124,7,B7_N0,PIN_124,2.5 V,,,,,
+Carry_HW,Output,PIN_125,7,B7_N0,PIN_125,2.5 V,,,,,
+EN[3],Output,PIN_144,8,B8_N0,PIN_144,2.5 V,,,,,
+EN[2],Output,PIN_143,8,B8_N0,PIN_143,2.5 V,,,,,
+EN[1],Output,PIN_142,8,B8_N0,PIN_142,2.5 V,,,,,
+EN[0],Output,PIN_141,8,B8_N0,PIN_141,2.5 V,,,,,
+Oper_HW[1],Input,PIN_113,7,B7_N0,PIN_113,2.5 V,,,,,
+Oper_HW[0],Input,PIN_114,7,B7_N0,PIN_114,2.5 V,,,,,
+Overflow_HW,Output,PIN_126,7,B7_N0,PIN_126,2.5 V,,,,,
+R[3],Output,PIN_77,5,B5_N0,PIN_77,2.5 V,,,,,
+R[2],Output,PIN_76,5,B5_N0,PIN_76,2.5 V,,,,,
+R[1],Output,PIN_75,5,B5_N0,PIN_75,2.5 V,,,,,
+R[0],Output,PIN_74,5,B5_N0,PIN_74,2.5 V,,,,,
+RST,Input,PIN_89,5,B5_N0,PIN_89,2.5 V,,,,,
+Zero_HW,Output,PIN_127,7,B7_N0,PIN_127,2.5 V,,,,,
+altera_reserved_tck,Input,,,,PIN_16,,,,,,
+altera_reserved_tdi,Input,,,,PIN_15,,,,,,
+altera_reserved_tdo,Output,,,,PIN_20,,,,,,
+altera_reserved_tms,Input,,,,PIN_18,,,,,,
+clk100MHz,Input,PIN_88,5,B5_N0,PIN_88,2.5 V,,,,,
+digi[7],Output,PIN_28,2,B2_N0,PIN_28,2.5 V,,,,,
+digi[6],Output,PIN_30,2,B2_N0,PIN_30,2.5 V,,,,,
+digi[5],Output,PIN_31,2,B2_N0,PIN_31,2.5 V,,,,,
+digi[4],Output,PIN_32,2,B2_N0,PIN_32,2.5 V,,,,,
+digi[3],Output,PIN_33,2,B2_N0,PIN_33,2.5 V,,,,,
+digi[2],Output,PIN_34,2,B2_N0,PIN_34,2.5 V,,,,,
+digi[1],Output,PIN_38,3,B3_N0,PIN_38,2.5 V,,,,,
+digi[0],Output,PIN_39,3,B3_N0,PIN_39,2.5 V,,,,,
+disp_res,Input,PIN_115,7,B7_N0,PIN_115,2.5 V,,,,,

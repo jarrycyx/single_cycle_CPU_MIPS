@@ -1,0 +1,43 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 04/26/2020 16:11:59 PM
+// Design Name: 
+// Module Name: CYX_SC_CPU_nanoMIPS_tb
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module CYX_SC_CPU_nanoMIPS_tb
+	(
+	output reg[31:0] DOUT,
+	input wire[31:0] Adr
+	);
+	
+	always @ * begin
+		case (Adr)
+			0: DOUT = {6'b000000, 5'b00001, 5'b00000, 16'h000F};
+			1:	DOUT = 32'h0000;
+			default:	DOUT = 32'h0000;
+		endcase
+	end
+	
+	
+endmodule
+
+
+
+
+	

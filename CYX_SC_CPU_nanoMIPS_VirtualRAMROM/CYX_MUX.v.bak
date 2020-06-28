@@ -1,0 +1,39 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 03/21/2020 06:58:59 PM
+// Design Name: 
+// Module Name: CYX_MUX
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module CYX_MUX
+	#(parameter WIDTH = 32)
+	(
+	input wire sel,
+	input wire[WIDTH:0] A,
+	input wire[WIDTH:0] B,
+	output wire[WIDTH:0] RES
+	);
+	
+	assign sel == 1 ? RES = A : B;
+	
+endmodule
+
+
+
+
+	

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun May 10 20:36:30 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : CYX_SC_CPU_nanoMIPS
+Top-level Entity Name : CYX_SC_CPU_nanoMIPS
+Family : Cyclone IV E
+Total logic elements : 4,392
+    Total combinational functions : 2,154
+    Dedicated logic registers : 3,112
+Total registers : 3112
+Total pins : 17
+Total virtual pins : 0
+Total memory bits : 20,480
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

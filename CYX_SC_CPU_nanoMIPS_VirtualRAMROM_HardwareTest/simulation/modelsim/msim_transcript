@@ -1,0 +1,106 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do CYX_SC_CPU_nanoMIPS_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {CYX_SC_CPU_nanoMIPS_6_1200mv_85c_slow.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:13:54 on May 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." CYX_SC_CPU_nanoMIPS_6_1200mv_85c_slow.vo 
+# -- Compiling module CYX_SC_CPU_nanoMIPS
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	CYX_SC_CPU_nanoMIPS
+# End time: 17:13:54 on May 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/jarrycyx/OneDrive/+ACademia/Computer\ Principles\ and\ Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:13:55 on May 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM" C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v 
+# -- Compiling module CYX_SC_CPU_nanoMIPS_tb
+# 
+# Top level modules:
+# 	CYX_SC_CPU_nanoMIPS_tb
+# End time: 17:13:55 on May 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  CYX_SC_CPU_nanoMIPS_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" CYX_SC_CPU_nanoMIPS_tb 
+# Start time: 17:13:55 on May 08,2020
+# Loading work.CYX_SC_CPU_nanoMIPS_tb
+# Loading work.CYX_SC_CPU_nanoMIPS
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading instances from CYX_SC_CPU_nanoMIPS_6_1200mv_85c_v_slow.sdo
+# ** Warning: (vsim-3017) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Too few port connections. Expected 10, found 1.
+#    Time: 0 ps  Iteration: 0  Instance: /CYX_SC_CPU_nanoMIPS_tb/my_SC_CPU File: CYX_SC_CPU_nanoMIPS_6_1200mv_85c_slow.vo
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'ALU_RES'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'regA'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'Instruction'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'Inst_Addr'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'RAM_OUT'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'rs'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'rt'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'rd'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'busB_selected'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from CYX_SC_CPU_nanoMIPS_6_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CYX_SC_CPU_nanoMIPS_tb File: C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v line 4251
+# Error opening C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v
+# Path name 'C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v' doesn't exist.
+restart -f
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading instances from CYX_SC_CPU_nanoMIPS_6_1200mv_85c_v_slow.sdo
+# ** Warning: (vsim-3017) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Too few port connections. Expected 10, found 1.
+#    Time: 0 ps  Iteration: 0  Instance: /CYX_SC_CPU_nanoMIPS_tb/my_SC_CPU File: CYX_SC_CPU_nanoMIPS_6_1200mv_85c_slow.vo
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'ALU_RES'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'regA'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'Instruction'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'Inst_Addr'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'RAM_OUT'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'rs'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'rt'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'rd'.
+# ** Warning: (vsim-3722) C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v(47): [TFMPC] - Missing connection for port 'busB_selected'.
+# Loading timing data from CYX_SC_CPU_nanoMIPS_6_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CYX_SC_CPU_nanoMIPS_tb File: C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS_VirtualRAMROM/CYX_SC_CPU_nanoMIPS_tb.v
+do timing_wave.do
+run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v line 4251
+# Error opening C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v
+# Path name 'C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v' doesn't exist.
+
+
+
+# End time: 15:23:59 on May 10,2020, Elapsed time: 46:10:04
+# Errors: 2, Warnings: 20

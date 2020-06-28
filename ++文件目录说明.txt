@@ -1,0 +1,3 @@
+CYX_SC_CPU_nanoMIPS_VirtualRAMROM 是仿真工程
+CYX_SC_CPU_nanoMIPS_VirtualRAMROM_HardwareTest 是硬件实验工程
+四个asm和txt文件是汇编测试程序

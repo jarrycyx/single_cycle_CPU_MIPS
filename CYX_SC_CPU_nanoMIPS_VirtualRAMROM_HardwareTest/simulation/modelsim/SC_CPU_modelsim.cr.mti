@@ -1,0 +1,43 @@
+{C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_SC_CPU_nanoMIPS_tb.v} {1 {vlog -work work -stats=none {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_SC_CPU_nanoMIPS_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CYX_SC_CPU_nanoMIPS_tb
+
+Top level modules:
+	CYX_SC_CPU_nanoMIPS_tb
+
+} {} {}} {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_Extender16.v} {1 {vlog -work work -stats=none {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_Extender16.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CYX_Extender16
+
+Top level modules:
+	CYX_Extender16
+
+} {} {}} {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_MUX.v} {1 {vlog -work work -stats=none {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_MUX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CYX_MUX
+
+Top level modules:
+	CYX_MUX
+
+} {} {}} {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_VRAM.v} {1 {vlog -work work -stats=none {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_VRAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CYX_VRAM
+
+Top level modules:
+	CYX_VRAM
+
+} {} {}} {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_RegFile.v} {1 {vlog -work work -stats=none {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/CYX_RegFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CYX_RegFile
+
+Top level modules:
+	CYX_RegFile
+
+} {} {}} {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/ALU_Core.v} {1 {vlog -work work -stats=none {C:/Users/jarrycyx/OneDrive/+ACademia/Computer Principles and Applications/Ex3/CYX_SC_CPU_nanoMIPS/ALU_Core.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_Core
+
+Top level modules:
+	ALU_Core
+
+} {} {}}

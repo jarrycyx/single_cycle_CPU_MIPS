@@ -1,0 +1,51 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 03/21/2020 06:58:59 PM
+// Design Name: 
+// Module Name: CYX_RegFile
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module CYX_Inst_Fetch(
+	input wire[15:0] imm16,
+	input wire nPC_sel,
+	input wire Equal,
+	output wire[31:0] Inst_Addr,
+	input wire CLK
+	);
+	
+	reg[31:0] PC;
+	wire[31:0] imm32, PC_add4, PC_add4_addIMM;
+	
+	assign PC_add4 = PC + 4;
+	assign imm32 = imm16[15] ? {16'fFFFF, imm16} : {16'f0000, imm16};
+	assign PC_add4_addIMM = PC_add4_addIMM;
+	
+	always @ (posedge CLK) begin
+		if (nPC_sel && Equal) begin
+			PC = PC_add4_addIMM;
+		end else begin
+			PC = PC_add4;
+		end
+	end
+	
+endmodule
+
+
+
+
+	
